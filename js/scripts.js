@@ -38,8 +38,14 @@ results.style.backgroundColor = "yellow";
 
 // Question 7
 
-const list = {
-    function () {
-        
+var 
+
+function list (name) {
+    
+    for(let i = 0; i < list.length; i++) {
+        console.log(name[i]);
     }
+
 }
+
+list(cats);
