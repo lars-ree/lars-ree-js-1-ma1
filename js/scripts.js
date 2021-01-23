@@ -24,6 +24,22 @@ heading.className = "subheading";
 
 // Question 5
 
- var paragraphs = document.querySelector(" p");
+ var paragraphs = document.querySelector("p");
 
-//paragraphs.style.fontSize = "2em"; 
+paragraphs.style.backgroundColor = "red";
+// Queston 6
+
+var results = document.querySelector(".results");
+
+results.innerHTML = "This is a new paragraph";
+results.style.backgroundColor = "yellow";
+
+
+
+// Question 7
+
+const list = {
+    function () {
+        
+    }
+}
