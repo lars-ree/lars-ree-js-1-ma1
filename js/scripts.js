@@ -38,14 +38,34 @@ results.style.backgroundColor = "yellow";
 
 // Question 7
 
-var 
+
 
 function list (name) {
     
-    for(let i = 0; i < list.length; i++) {
+    let list = "";
+
+    for(let i = 0; i < name.length; i++) {
         console.log(name[i]);
+
+        list = list + "<ul>" + name[i] + "</ul>";
+
     }
 
 }
 
-list(cats);
+// Question 8 
+
+
+//const cat1 = ["small", "medium", "large"];
+
+//function createCats(cats) {
+    
+  //  let cat1 ="";
+
+    //for(let i = 0; < cats.length; i++) {
+      //  cat1 = cats + "<h5>" + cats[] + "</h5>";
+
+    //}
+//}
+
+//createCats(cat1)
